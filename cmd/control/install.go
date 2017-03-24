@@ -74,7 +74,7 @@ var installCommand = cli.Command{
 			Hidden: true,
 		},
 		cli.BoolFlag{
-			Name:  "kexec",
+			Name:  "kexec, k",
 			Usage: "reboot using kexec",
 		},
 		cli.BoolFlag{
